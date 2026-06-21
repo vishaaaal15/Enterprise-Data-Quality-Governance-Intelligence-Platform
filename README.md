@@ -1,12 +1,14 @@
 # Enterprise Data Quality & Governance Intelligence Platform
 
-## Overview
+## Project Overview
+An enterprise-grade data quality and governance platform designed to profile, validate, and monitor over 1 Million records across distributed environments. This project models modern **Data Mesh** concepts by treating **data-as-a-product**, ensuring that high-quality, trusted datasets are seamlessly delivered to downstream pipelines. 
 
-The Enterprise Data Quality & Governance Intelligence Platform is an end-to-end data governance analytics solution designed to monitor data quality, assess data integrity, identify governance risks, and improve enterprise reporting reliability through KPI-driven analytics.
 
-This project leverages SQL, Python, Excel, and Power BI to evaluate data quality dimensions, automate validation processes, and provide executive-level visibility into enterprise data health and governance performance.
+### Key Governance Architecture Implemented:
+* **Source-to-Target Mapping (STM):** Engineered comprehensive logical mapping rules to track data fields from source ingestion layers to target presentation views.
+* **Data Lineage & Metadata Management:** Automated tracking mechanisms using Python to document data origin, transformations, and schema modifications.
+* **Pipeline Validation:** Written 30+ automated SQL validation checks to catch anomalies before production deployment.
 
----
 
 ## Business Problem
 
